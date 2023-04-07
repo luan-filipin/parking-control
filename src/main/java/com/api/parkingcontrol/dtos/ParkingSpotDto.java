@@ -19,7 +19,7 @@ public class ParkingSpotDto {
 	@NotBlank
 	private String responsibleName;
 	@NotBlank
-	private String apartment;
+	private String apartament;
 	@NotBlank
 	private String block;
 	
@@ -60,10 +60,10 @@ public class ParkingSpotDto {
 		this.responsibleName = responsibleName;
 	}
 	public String getApartament() {
-		return apartment;
+		return apartament;
 	}
-	public void setApartment(String apartment) {
-		this.apartment = apartment;
+	public void setApartment(String apartament) {
+		this.apartament = apartament;
 	}
 	public String getBlock() {
 		return block;
